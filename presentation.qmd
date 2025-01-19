@@ -1,460 +1,333 @@
+# Bestehende Monitoringsysteme
 
-<!-- EXAMPLE CONTENT - EDIT / REPLACE BELOW -->
+![](images/poster_bwi_infomap.jpg)
 
-# Slide 1.1
+**Bundeswaldinventur**, **Waldzustandserhebung**, **Bodenzusatandserhebung**, **Bestriebsinventur**, **Forsteinrichtung**, **...**
 
-![Alternative image text](images/triangle_logo.png){.lightbox}
-
-## Slide 1.2
-
-
-# Quarto syntax examples
-
-## Attribution
-
-With the [Attribution extension](https://github.com/quarto-ext/attribution) we can display attributions on the right side.
-
-```markdown
-::: {.attribution}
-by [Jens Wiesehahn](https://wiesehahn.github.io/)
-:::
-```
+- Terrestrische Systeme
+- im Intervall von 1-10 Jahren 
+- Stichprobenbasiert (oder gutachterlich)
 
 ::: {.attribution}
-by [Jens Wiesehahn](https://wiesehahn.github.io/)
+[Wiesehahn, Jens (2019)](https://wiesehahn.github.io/bwi_map/)
 :::
 
+# Warum brauchen wir bessere Monitoring-Systeme?
 
-## Reference & Footer
-
-``` markdown                            
-Lets insert a reference at the end of a sentence [@Wiesehahn_2023]. 
-```
-Lets insert a reference at the end of a sentence [@Wiesehahn_2023]. 
-
-
-``` markdown                            
-@Wiesehahn_2023 inserts an inline reference.
-```
-@Wiesehahn_2023 inserts an inline reference.
-
-
-
-The reference list is added at the end of the document, or can be added via 
-```markdown
-::: {#refs}
-:::
-
-```
-
-To insert a footer use:
-
-
-``` markdown                            
-::: footer
-Custom footer text
-:::
-```
-::: footer
-Custom footer text
-:::
-
-
-
-## Text Formatting
-
-+-----------------------------------------+-----------------------------------------+
-| Markdown Syntax                         | Output                                  |
-+=========================================+=========================================+
-| ``` markdown                            | *italics*, **bold**, ***bold italics*** |
-| *italics*, **bold**, ***bold italics*** |                                         |
-| ```                                     |                                         |
-+-----------------------------------------+-----------------------------------------+
-| ``` markdown                            | superscript^2^ / subscript~2~           |
-| superscript^2^ / subscript~2~           |                                         |
-| ```                                     |                                         |
-+-----------------------------------------+-----------------------------------------+
-| ``` markdown                            | ~~strikethrough~~                       |
-| ~~strikethrough~~                       |                                         |
-| ```                                     |                                         |
-+-----------------------------------------+-----------------------------------------+
-| ``` markdown                            | `verbatim code`                         |
-| `verbatim code`                         |                                         |
-| ```                                     |                                         |
-+-----------------------------------------+-----------------------------------------+
-
-## Headings
-
-+-----------------+-----------------------------------+
-| Markdown Syntax | Output                            |
-+=================+===================================+
-| ``` markdown    | # Header 1 {.heading-output}      |
-| # Header 1      |                                   |
-| ```             |                                   |
-+-----------------+-----------------------------------+
-| ``` markdown    | ## Header 2 {.heading-output}     |
-| ## Header 2     |                                   |
-| ```             |                                   |
-+-----------------+-----------------------------------+
-| ``` markdown    | ### Header 3 {.heading-output}    |
-| ### Header 3    |                                   |
-| ```             |                                   |
-+-----------------+-----------------------------------+
-| ``` markdown    | #### Header 4 {.heading-output}   |
-| #### Header 4   |                                   |
-| ```             |                                   |
-+-----------------+-----------------------------------+
-| ``` markdown    | ##### Header 5 {.heading-output}  |
-| ##### Header 5  |                                   |
-| ```             |                                   |
-+-----------------+-----------------------------------+
-| ``` markdown    | ###### Header 6 {.heading-output} |
-| ###### Header 6 |                                   |
-| ```             |                                   |
-+-----------------+-----------------------------------+
-
-
-## Links & Images
-
-``` markdown                                                                                                                                     
-<https://quarto.org>                                                                                                                                                 
-```
-<https://quarto.org>
-
-
-``` markdown
-[Quarto](https://quarto.org)
-```
-[Quarto](https://quarto.org)           
-
-
-``` markdown
-![Caption](/images/triangle_logo.png)
-```
-![Caption](/images/triangle_logo.png){fig-alt="Logo image"}  
-
-
-``` markdown                                                                             
-[![Caption](/images/triangle_logo.png)](https://quarto.org)
-```
-[![Caption](/images/triangle_logo.png)](https://quarto.org)    
-
-
-``` markdown                                                  
-[![Caption](/images/triangle_logo.png)](https://quarto.org " Logo image")
-```
-[![Caption](/images/triangle_logo.png " Logo image"){fig-alt="Logo image."}](https://quarto.org) 
-
-
-``` markdown                                                             
-[![](/images/triangle_logo.png){fig-alt="Alt text"}](https://quarto.org)
-```
-[![](/images/triangle_logo.png){fig-alt="Logo image."}](https://quarto.org)          
-
-
-## Lists {.scrollable}
-
-+-----------------------------------+---------------------------------+
-| Markdown Syntax                   | Output                          |
-+===================================+=================================+
-| ``` markdown                      |                                 |
-| * unordered list                  | * unordered list                |
-|     + sub-item 1                  |     + sub-item 1                |
-|     + sub-item 2                  |     + sub-item 2                |
-|         - sub-sub-item 1          |         - sub-sub-item 1        |
-| ```                               |                                 |
-+-----------------------------------+---------------------------------+
-| ``` markdown                      |                                 |
-| *   item 2                        | -   item 2                      |
-|                                   |                                 |
-|     Continued (indent 4 spaces)   |     Continued (indent 4 spaces) |
-| ```                               |                                 |
-+-----------------------------------+---------------------------------+
-| ``` markdown                      |                                 |
-| 1. ordered list                   |  1. ordered list                |
-| 2. item 2                         |  2. item 2                      |
-|     i) sub-item 1                 |      i) sub-item 1              |
-|          A.  sub-sub-item 1       |           A.  sub-sub-item 1    |
-| ```                               |                                 |
-|                                   |                                 |
-+-----------------------------------+---------------------------------+
-| ``` markdown                      |                                 |
-| (@)  A list whose numbering       |  (1) A list whose numbering     |
-|                                   |                                 |
-| continues after                   |  continues after                |
-|                                   |                                 |
-| (@)  an interruption              |  (2) an interruption            |
-| ```                               |                                 |
-+-----------------------------------+---------------------------------+
-| ``` markdown                      |                                 |
-| ::: {}                            | ::: {}                          |
-| 1. A list                         | 1. A list                       |
-| :::                               | :::                             |
-|                                   |                                 |
-| ::: {}                            | ::: {}                          |
-| 1. Followed by another list       | 1. Followed by another list     |
-| :::                               | :::                             |
-| ```                               |                                 |
-+-----------------------------------+---------------------------------+
-| ``` markdown                      |                                 |
-| term                              | term                            |
-| : definition                      | : definition                    |
-| ```                               |                                 |
-+-----------------------------------+---------------------------------+
-
-Note that unlike other Markdown renderers (notably Jupyter and GitHub), lists in Quarto require an entire blank line above the list. Otherwise the list will not be rendered in list form, rather it will all appear as normal text along a single line.
-
-
-
-## Tables
-
-#### Markdown Syntax
-
-``` markdown
-| Right | Left | Default | Center |
-|------:|:-----|---------|:------:|
-|   12  |  12  |    12   |    12  |
-|  123  |  123 |   123   |   123  |
-|    1  |    1 |     1   |     1  |
-```
-
-#### Output
-
-| Right | Left | Default | Center |
-|------:|:-----|---------|:------:|
-|    12 | 12   | 12      |   12   |
-|   123 | 123  | 123     |  123   |
-|     1 | 1    | 1       |   1    |
-
-
-
-## Source Code {.scrollable}
-
-Use ```` ``` ```` to delimit blocks of source code:
-
-Add a language to syntax highlight code blocks:
-
-```` markdown
-```python
-1 + 1
-```
-````
-
-Pandoc supports syntax highlighting for over [140 different languages](https://github.com/jgm/skylighting/tree/master/skylighting-core/xml). If your language is not supported then you can use the `default` language to get a similar visual treatment:
-
-```` markdown
-```default
-code
-```
-````
-
-
-Naming code blocks like
-
-````markdown
-```{.r filename="script.r"}
-1+1
-```
-````
-gives
-
-````{.r filename="script.r"}
-1+1
-````
-
-
-Highlight certain lines with e.g. `{.python code-line-numbers="6-8"}`
-
-```{.python code-line-numbers="6-8"}
-import numpy as np
-import matplotlib.pyplot as plt
-
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-```
-
-
-You can collapse code with 
-```markdown 
-#| code-fold: true
-#| code-summary: "Code"
-```
-
-````{.r}
-#| code-fold: true
-#| code-summary: "Code"
-
-1+1
-````  
-
-
-
-## Equations
-
-Use `$` delimiters for inline math and `$$` delimiters for display math. For example:
-
-+---------------------------+-------------------------+
-| Markdown Syntax           | Output                  |
-+===========================+=========================+
-| ``` markdown              |                         |
-| inline math: $E = mc^{2}$ | inline math: $E=mc^{2}$ |
-| ```                       |                         |
-+---------------------------+-------------------------+
-| ``` markdown              |                         |
-| display math:             | display math:           |
-|                           |                         |
-| $$E = mc^{2}$$            | $$E = mc^{2}$$          |
-| ```                       |                         |
-+---------------------------+-------------------------+
-
-
-## Diagrams
-
-Quarto has native support for embedding [Mermaid](https://mermaid-js.github.io/mermaid/#/) and [Graphviz](https://graphviz.org/) diagrams. This enables you to create flowcharts, sequence diagrams, state diagrams, Gantt charts, and more using a plain text syntax inspired by markdown.
-
-For example, here we embed a flowchart created using Mermaid:
-
-```{mermaid}
-%%| echo: fenced
-flowchart LR
-    A[Hard edge] --> B(Round edge)
-    B --> C{Decision}
-    C --> D[Result one]
-    C --> E[Result two]
-```
-
-
-## Videos
-
-You can include videos in documents using the `{{{< video >}}}` shortcode. For example, here we embed a YouTube video:
-
-``` {.markdown shortcodes="false"}
-{{< video https://www.youtube.com/embed/wo9vZccmqwc >}}
-```
-
-{{< video https://www.youtube.com/embed/wo9vZccmqwc >}}
-
-
-
-## Divs and Spans
-
-You can add classes, attributes, and other identifiers to regions of content using Divs and Spans (you'll see an example of this below in [Callout Blocks]).
-
-For example, here we add the "border" class to a region of content using a div (`:::`):
-
-``` markdown
-::: {.second-color}
-This content can be styled with a border
-:::
-```
-
-::: {.second-color}
-This content can be styled with a border
-:::
-
-
-``` markdown
-[This is *some text*]{.third-color}
-```
-
-[This is *some text*]{.third-color}
-
-
-## Callout Blocks
-
-#### Markdown Syntax
-
-``` markdown
-:::{.callout-note}
-Note that there are five types of callouts, including: 
-`note`, `tip`, `warning`, `caution`, and `important`.
-:::
-```
-
-#### Output
-
-::: callout-note
-Note that there are five types of callouts, including `note`, `tip`, `warning`, `caution`, and `important`.
-:::
-
-::: callout-tip
-Note that there are five types of callouts, including `note`, `tip`, `warning`, `caution`, and `important`.
-:::
-
-::: callout-warning
-Note that there are five types of callouts, including `note`, `tip`, `warning`, `caution`, and `important`.
-:::
-
-::: callout-caution
-Note that there are five types of callouts, including `note`, `tip`, `warning`, `caution`, and `important`.
-:::
-
-::: callout-important
-Note that there are five types of callouts, including `note`, `tip`, `warning`, `caution`, and `important`.
-:::
-
-
-## Other Blocks
-
-+--------------------------+--------------------------+
-| Markdown Syntax          | Output                   |
-+==========================+==========================+
-| ``` markdown             | > Blockquote             |
-| > Blockquote             |                          |
-| ```                      |                          |
-+--------------------------+--------------------------+
-| ``` markdown             | ::: classname            |
-| ::: {.classname}         | Div                      |
-| Div                      | :::                      |
-| :::                      |                          |
-| ```                      |                          |
-+--------------------------+--------------------------+
-| ``` markdown             | | Line Block             |
-| | Line Block             | |    Spaces and newlines |
-| |   Spaces and newlines  | |    are preserved       |
-| |   are preserved        |                          |
-| ```                      |                          |
-+--------------------------+--------------------------+
-
-# Final Slide
 
 <br>
 
 :::: {.columns}
-::: {.column width="70%"}
+::: {.column width="50%"}
+**sich ändernde Bedingungen**
 
-some **conclusion** remarks
-
-- [nice presentation]{.highlight-color-pink}
-
-<br>
-
-{{< iconify tabler mail size=lg >}} *[{{< var email-adress >}}](mailto:{{< var email-adress >}})*
-
-{{< iconify line-md mastodon size=lg >}} *[{{< var mastodon-name >}}]({{< var mastodon-url >}})*
+- Personalmangel
+- Kosteneinsparungen
+- **Klimawandel** 
+    - Waldschäden 
+    - Biodiversitätsverlust
 
 :::
 
-::: {.column width="30%"}
-Slides available at: 
+::: {.column width="50%"}
+**>= Anforderungen an Wald**
 
-[{{< var website-name >}}]({{< var website-url >}})
+- Klimaschutzfunktion (CO²)
+- Biodiversität
+- Holznutzung
+- Erholung
+- Wasserspeicher
+:::
+::::
+
+::: {.r-stack}
+::: {.fragment .fade-out  fragment-index=1}
+![](/images/zeitreihe_klima.png)
+:::
+
+::: {.fragment .fade-in  fragment-index=1}
+**höherer Informationsbedarf**
+
+- räumlich
+- zeitlich
+- multivariat
+:::
+:::
+
+::: {.notes}
+Herausforderung
+- Fachkräftemangel
+- Klimawandel-bedingte Waldschäden
+  - Dürrejahre 2018-2020 in Mitteleuropa
+  - Massive Borkenkäferkalamitäten
+
+vs.
+
+- hohe Anforderungen an Wald
+  - Nutz-, Schutz-, Erholungsfunktion
+
+
+- Näher am Geschehen
+  - Zeitnahe Erfassung von Schäden
+  - Aktuellere Informationen (BWI 10J, FE 10J)
+:::
+
+::: {.attribution}
+[showyourstripes.info](https://showyourstripes.info/)
+:::
+
+
+# Das moderne Werkzeugset: vom Satelliten bis zum terrestrischen Laserscanner
+
+![](images/forest_plot_resmote_sensing.jpg){width=80%}
+
+"*Recent advances in remote sensing and data processing are revolutionising our ability to accurately measure tree and forest structure from leaves to landscapes*" [Lines et al. 2022](https://doi.org/10.1111/1365-2745.13944)
+
+::: {.notes}
+Satelliten (optisch)
+    - Landsat / Sentinel (10m, 5 Tage)
+    - Planet (3-5m, täglich)
+    - WorldView (0,3m, auf Anfrage)
+
+Satelliten (radar)
+    - Sentinel-1
+    - BIOMASS (ab 2025)
+
+Orthophotos
+ALS (Landesbefliegungen + DigiZ)
+UAV/Drohnen als flexible Ergänzung
+TLS
+PLS (IPhone)
+:::
+
+::: {.attribution}
+[gfoi.org](http://www.gfoi.org/) (edited)
+:::
+
+
+
+# Monitoring von Waldschäden durch multitemporale Satellitendaten
+
+![](images/webmap_disturbances.jpg)
+
+Diverse Produkte und Projekte 
+([Forestwatch-DE](https://forestwatch.lup-umwelt.de/), [Waldmonitor-Deutschland](https://map3d.remote-sensing-solutions.de/waldmonitor-deutschland/), [deadtrees.earth](https://deadtrees.earth/deadtrees), [European forest disturbance map](https://corneliussenf.users.earthengine.app/view/european-disturbance-map), [FNEWS](https://www.fnews-wald.de/), [WSF-SAT](https://wiesehahn.github.io/webmaps/maplibre_pmtiles.html), [...](https://gist.github.com/wiesehahn/f3f6188dd77c29ad37294b836fc219b6))
+
+::: {.attribution}
+[Wiesehahn, Jens (2025)](https://wiesehahn.github.io/webmaps/maplibre_pmtiles.html)
+:::
+
+# 3D-Waldstrukturerfassung mittels Laserscanning - Neue Einblicke in komplexe Ökosysteme
+
+:::: {.columns}
+::: {.column width="50%"}
+
+::: {.r-stack}
+::: {.fragment .fade-out  fragment-index=1}
+![](images/disturbance_rayshader_2016.png)
+:::
+
+::: {.fragment .fade-in  fragment-index=1}
+![](images/beech_stand_above.png)
+:::
+
+:::
+:::
+
+::: {.column width="50%"}
+
+::: {.r-stack}
+::: {.fragment .fade-out  fragment-index=1}
+![](images/disturbance_rayshader_2020.png)
+:::
+
+::: {.fragment .fade-in  fragment-index=1}
+![](images/beech_stand_deadwood.png)
+:::
+:::
+:::
+
+::::
+
+Projekte: F³, FORESLAB, ForestPulse
+
+
+[Strukturparameter (Höhe, Dichte, Schichtung, Lücken, Artenzusammensetzung, ...)](https://github.com/wiesehahn/lidar-forestry/issues?q=sort%3Aupdated-desc%20label%3A%22forest%20structure%22%20)
+
+::: {.attribution}
+Wiesehahn, Jens (2023)
+:::
+::: {.notes}
+Habitatmodellierung
+:::
+
+
+# Grenzen und Herausforderungen der fernerkundlichen Walderfassung
+
 
 <br>
 
-{{< qrcode https://wiesehahn.github.io/quarto_presentation_template width=500 height=500 colorDark='#0011bb' >}}
+:::: {.columns}
+::: {.column width="33%"}
+**Technisch**
+
+- Datengröße
+- Datenverfügbarkeit
+- Dateninhomogenität
+:::
+
+::: {.column width="33%"}
+**Natürlich**
+
+- Wolkenbedeckung
+- Wald ist ein komplexes Ökosystem
+:::
+
+::: {.column width="33%"}
+**Strukturell**
+
+- kurze Projekte 
+- kaum flächige/dauerhafte Umsetzung
+- langsame Akzeptanz (DE)
 :::
 ::::
 
 
+. . . 
 
-# References {visibility="uncounted"}
+<br>
 
-::: {#refs}
+:::: {.columns}
+:::{.column width="25%"}
 :::
 
+::: {.column width="50%"}
+**Was wir brauchen**
+
+- Bessere Kommunikation
+- Mehr Kollaboration
+:::
+
+:::{.column width="25%"}
+:::
+::::
+
+::: {.attribution}
+[Fassnacht et al. (2024)](https://doi.org/10.1093/forestry/cpad024)
+:::
+
+
+
+::: {.notes}
+- Bessere Kommunikation nötig
+    - Praxis/Politik/Öffentlichkeit muss informiert werden was möglich ist und was nicht
+    - Forschung/Entwicklung muss informiert werden was gebraucht wird 
+- Mehr Kollaboration nötig
+    - zwischen Industrie/Politik/Wissenschaft
+
+Wir erfassen die Auswirkungen des Klimawandels haben aber begrenzte Möglichkeiten der Ursachenbekämpfung
+:::
+
+
+# Die Zukunft des Waldmonitorings - Trends und Perspektiven
+
+<br>
+
+:::: {.columns}
+:::{.column width="45%"}
+**Aktuelle Strategien und Regelungen**
+
+European Green Deal  
+
+- [Biodiversity Strategy 2030](https://environment.ec.europa.eu/strategy/biodiversity-strategy-2030_en)  
+- [EU Nature Restoration Law](https://environment.ec.europa.eu/topics/nature-and-biodiversity/nature-restoration-law_en)  
+- [Forest Strategy 2030](https://environment.ec.europa.eu/strategy/forest-strategy_en)  
+- [Regulation on a monitoring framework for resilient European forests](https://environment.ec.europa.eu/publications/proposal-regulation-forest-monitoring-framework_en)  
+- [Climate Adaptation Strategy](https://climate.ec.europa.eu/eu-action/adaptation-climate-change/eu-adaptation-strategy_en)  
+- ...
+:::
+
+:::{.column width="10%"}
+:::
+
+:::{.column width="45%"}
+**Aktuelle Bemühungen**
+
+Integration in bestehende Systeme
+
+- Bundeswaldinventur
+- Waldzustandserhebung
+- Forsteinrichtung
+
+:::
+
+::::
+
+
+::: {.notes}
+- [AI4Forest](https://www.lss.ls.tum.de/eoem/projekte/ai4forest/) - KI-basiertes Monitoring des Zustands von Wäldern
+- [CEURDIST](https://www.lss.ls.tum.de/eoem/projekte/ceurdist/) - Characterization of European forest disturbances 
+- [MicroDist](https://www.lss.ls.tum.de/eoem/projekte/microclimate/) - Mikroklima auf Störungsflächen
+- [FORESLAB](https://zukunft.niedersachsen.de/vier-climate-future-labs-ausgewahlt/) - Future lab für einen Klimawandel-resilienten Wald 
+- [DIVERSA](https://zukunft.niedersachsen.de/vier-climate-future-labs-ausgewahlt/) -Forest disturbances under climate change in Lower Saxony
+:::
+
+# Die Zukunft des Waldmonitorings - Trends und Perspektiven 
+
+<br>
+
+:::: {.columns}
+:::{.column width="45%"}
+**Aktuelle Entwicklungen**
+
+- Integration verschiedener Sensoren / Datenquellen
+    - [DAP + ALS](https://doi.org/10.1080/07038992.2016.1207484)
+    - TLS + ALS
+- KI und Deep Learning
+- Digitale Zwillinge von Wäldern
+- Von der Fläche zum Individuum
+- ...
+:::
+
+:::{.column width="10%"}
+:::
+
+:::{.column width="45%"}
+![](images/enhanced_forest_inventory.jpg)
+:::
+::::
+
+::: {.attribution}
+[Coops et al. (2023)](https://doi.org/10.1093/forestry/cpac015)
+:::
+
+
+# Verschneidung mit Klimavariablen {visibility="uncounted"}
+![](/images/waldzustandsapp.jpg)
+
+::: {.attribution}
+[Wiesehahn, Jens (2019)](https://wiesehahn.users.earthengine.app/view/waldzustand-v10)
+:::
+
+# Baumarten {visibility="uncounted"}
+![](images/dominant_tree_species.jpg)
+
+::: {.attribution}
+Wiesehahn, Jens (2021)
+:::
+
+# Waldstruktur {visibility="uncounted"}
+![](/images/versuchsflaeche_goettingen_sideview.jpg)
+![](/images/versuchsflaeche_goettingen_topview.jpg)
+
+::: {.attribution}
+Wiesehahn, Jens (2023)
+:::
+
+
+# Sonstiges {visibility="uncounted"}
+
+- [presentation-fowita23](https://wiesehahn.github.io/presentation-fowita23/presentation.html#/) 
+- [lidar_availability](https://wiesehahn.github.io/posts/lidar_availability/) 
+- [lidar-forestry](https://wiesehahn.github.io/lidar-forestry/content/applications.html) 
+- [Lebenslauf](https://wiesehahn.github.io/content/about/about_de.html)

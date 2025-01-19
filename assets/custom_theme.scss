@@ -159,15 +159,16 @@ $callout-color-important: $highlight-pink;
 // custom title slide
 #title-slide {
   .title {
-    color: $primary-color;
+    color: $light;
   }
 
   .subtitle {
-    color: $second-color;
+    color: $light;
+    font-size: 1.5em;
   }
 
   .quarto-title-author {
-    color: $third-color;
+    color: $light;
   }
 }
 

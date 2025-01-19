@@ -1,8 +1,8 @@
 # <!-- EXAMPLE CONTENT - EDIT / REPLACE BELOW -->
-title: "Presentation"
-subtitle: "A template"
+title: "Fernerkundung für das Monitoring von Wäldern in Zeiten des Klimawandels"
+subtitle: "Potenziale und Herausforderungen"
 author: "Jens Wiesehahn"
-# institute: 
+# institute: "NW-FVA" 
 
 project:
     type: website
@@ -20,12 +20,12 @@ format: # format options: https://quarto.org/docs/reference/formats/presentation
         width: 1600
         height: 1200
         margin: 0.15
-        #title-slide-attributes:
-        #    data-background-image: images/triangle_logo.png
-        #    data-background-size: cover
-        #    data-background-opacity: "1"
+        title-slide-attributes:
+            data-background-image: images/harz_3dview_ortho2022.jpeg
+            data-background-size: cover
+            data-background-opacity: "1"
         slide-number: c/t
-        show-slide-number: speaker
+        show-slide-number: all
         transition: slide
         background-transition: fade
         preview-links: false 
@@ -51,11 +51,8 @@ format: # format options: https://quarto.org/docs/reference/formats/presentation
         #    eval: false
 
 revealjs-plugins:
-    - verticator
     - attribution
 
-filters:
-    - lightbox
 
 bibliography: references.bib
 
