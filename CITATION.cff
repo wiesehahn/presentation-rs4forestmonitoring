@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: >-
+  Fernerkundung für das Monitoring von Wäldern in Zeiten des
+  Klimawandels - Potenziale und Herausforderungen
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Jens
+    family-names: Wiesehahn
+    email: wiesehahn.jens@gmail.com
+    affiliation: Nordwestdeutsche Forstliche Versuchsanstalt (NW-FVA)
+    orcid: 'https://orcid.org/0000-0002-4482-3012'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.14706838
+repository-code: >-
+  https://github.com/wiesehahn/presentation-rs4forestmonitoring
+url: >-
+  https://wiesehahn.github.io/presentation-rs4forestmonitoring/presentation
+abstract: >-
+  Short presentation about the current state and future
+  directions of remote sensing data and technology for
+  forest monitoring in the context of climate change.
+keywords:
+  - Forest Disturbances
+  - Airborne Laserscanning
+  - Climate Change
+  - Remote Sensing
+  - Forest Monitoring
+license: CC-BY-SA-4.0
+date-released: 2025-01-19
