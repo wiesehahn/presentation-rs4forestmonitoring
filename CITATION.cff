@@ -14,7 +14,7 @@ authors:
     orcid: 'https://orcid.org/0000-0002-4482-3012'
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.14706838
+    value: 10.5281/zenodo.14706837
 repository-code: >-
   https://github.com/wiesehahn/presentation-rs4forestmonitoring
 url: >-
