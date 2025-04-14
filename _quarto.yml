@@ -8,7 +8,6 @@ project:
     type: website
 
 website:
-    title: "{{< var website-title >}}"
     description: "{{< var website-description >}}"
     site-url: "{{< var website-url >}}"
     repo-url: "{{< var repository-url >}}"
